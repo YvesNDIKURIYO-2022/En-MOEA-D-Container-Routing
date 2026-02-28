@@ -6,7 +6,7 @@
 
 **Official implementation of the Enhanced MOEA/D (En-MOEA/D) algorithm** for multi-objective robust optimization of container routing problems under uncertainty. This repository contains all code necessary to reproduce the experiments and results presented in the paper:
 
-> *"A Multi-objective Robust Optimization based on Evolutionary Algorithm for container routing problems under risks and uncertainties"* (Applied Soft Computing, 2025)
+> *"A Multi-objective Robust Optimization based on Evolutionary Algorithm for container routing problems under risks and uncertainties"* (Applied Soft Computing, 2026)
 
 **Authors:** Yves Ndikuriyo, Yinggui Zhang, Dung Davou Fom  
 **Corresponding author:** Yves Ndikuriyo ([yvesndikuriyo@csu.edu.cn](mailto:yvesndikuriyo@csu.edu.cn))  
@@ -367,7 +367,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2026 NDIKURIYO Yves (柯林友), Yinggui Zhang, Dung Davou Fom
+Copyright (c) 2026 NDIKURIYO Yves, Yinggui Zhang, Dung Davou Fom
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -435,5 +435,5 @@ For questions, issues, or collaboration opportunities:
 ---
 
 **Repository:** [https://github.com/YvesNDIKURIYO-2022/En-MOEA-D-Container-Routing](https://github.com/YvesNDIKURIYO-2022/En-MOEA-D-Container-Routing)  
-**Last updated:** March 2026  
+**Last updated:** February 2026  
 **Version:** 1.0.0
