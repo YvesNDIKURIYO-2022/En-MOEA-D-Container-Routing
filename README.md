@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+**Preprint:** [DOI: 10.2139/ssrn.5399005](https://dx.doi.org/10.2139/ssrn.5399005) 
 
-**Official implementation of the Enhanced MOEA/D (En-MOEA/D) algorithm** for multi-objective robust optimization of container routing problems under uncertainty. This repository contains all code necessary to reproduce the experiments and results presented in the paper:
+**Official implementation of the Enhanced MOEA/D (En-MOEA/D) algorithm** for multi-objective robust optimization of container routing problems under uncertainty. This repository contains all the code necessary to reproduce the experiments and results presented in the paper:
 
 > *"A Multi-objective Robust Optimization based on Evolutionary Algorithm for container routing problems under risks and uncertainties"* (Applied Soft Computing, 2026)
 
@@ -105,44 +105,44 @@ En-MOEA-D-Container-Routing/
 ├── src/
 │   ├── algorithms/
 │   │   ├── __init__.py
-│   │   ├── en_moead.py           # Main EnhancedMOEAD algorithm
-│   │   ├── decomposition.py       # Adaptive PBI/Chebyshev switching
-│   │   ├── robustness.py          # Monte Carlo & mean-variance components
-│   │   └── variants.py            # MOEA/D variants for comparison
+│   │   ├── en_moead.py                # Main EnhancedMOEAD algorithm
+│   │   ├── decomposition.py           # Adaptive PBI/Chebyshev switching
+│   │   ├── robustness.py              # Monte Carlo & mean-variance components
+│   │   └── variants.py                # MOEA/D variants for comparison
 │   ├── problems/
 │   │   ├── __init__.py
-│   │   ├── benchmark.py            # ZDT, DTLZ, WFG problem definitions
-│   │   ├── robust_problems.py      # GFunction, Ishigami, OakleyOHagan
-│   │   └── east_africa.py          # East African case study data generation
+│   │   ├── benchmark.py               # ZDT, DTLZ, WFG problem definitions
+│   │   ├── robust_problems.py         # GFunction, Ishigami, OakleyOHagan
+│   │   └── east_africa.py             # East African case study data generation
 │   ├── metrics/
 │   │   ├── __init__.py
-│   │   ├── performance.py          # HV, IGD, Spread calculations
-│   │   └── statistics.py           # t-tests, ANOVA, Cohen's d
+│   │   ├── performance.py             # HV, IGD, Spread calculations
+│   │   └── statistics.py              # t-tests, ANOVA, Cohen's d
 │   ├── visualization/
 │   │   ├── __init__.py
-│   │   └── plotting.py              # Pareto fronts, sensitivity plots, comparisons
+│   │   └── plotting.py                # Pareto fronts, sensitivity plots, comparisons
 │   └── utils/
 │       ├── __init__.py
-│       ├── config.py                 # Centralized configuration with optimal parameters
-│       └── helpers.py                # Data validation, I/O, memory optimization
+│       ├── config.py                  # Centralized configuration with optimal parameters
+│       └── helpers.py                 # Data validation, I/O, memory optimization
 ├── experiments/
-│   ├── run_adaptive_decomposition.py   # Compares PBI-only, Tchebicheff-only, Hybrid-Adaptive
-│   ├── run_sensitivity_analysis.py     # Validates optimal parameters α, β, ω, γ, τ
-│   ├── run_mean_variance.py            # RobustMOEA/D vs NSGA-II, SPEA2, MOEA/D
-│   ├── run_monte_carlo.py              # MOEA/D vs MOEA/D-MCSS under uncertainty
-│   ├── run_robust_problems.py          # GFunction, Ishigami, OakleyOHagan benchmarks
-│   ├── run_wfg_benchmarks.py           # WFG1-WFG9 test problems
-│   ├── run_zdt_dtlz_benchmarks.py      # ZDT1-ZDT6 and DTLZ1-DTLZ7
-│   └── run_case_study.py               # East African logistics case study
+│   ├── run_adaptive_decomposition.py  # Compares PBI-only, Tchebicheff-only, Hybrid-Adaptive
+│   ├── run_sensitivity_analysis.py    # Validates optimal parameters α, β, ω, γ, τ
+│   ├── run_mean_variance.py           # RobustMOEA/D vs NSGA-II, SPEA2, MOEA/D
+│   ├── run_monte_carlo.py             # MOEA/D vs MOEA/D-MCSS under uncertainty
+│   ├── run_robust_problems.py         # GFunction, Ishigami, OakleyOHagan benchmarks
+│   ├── run_wfg_benchmarks.py          # WFG1-WFG9 test problems
+│   ├── run_zdt_dtlz_benchmarks.py     # ZDT1-ZDT6 and DTLZ1-DTLZ7
+│   └── run_case_study.py              # East African logistics case study
 ├── data/
-│   └── east_africa/                  # Generated case study data
+│   └── east_africa/                   # Generated case study data
 ├── results/                           # Output directory (created automatically)
 ├── notebooks/                         # Jupyter notebooks for interactive analysis
 ├── tests/                             # Unit tests
-├── requirements.txt                    # Python dependencies
-├── .gitignore                          # Git ignore rules
-├── LICENSE                             # MIT License
-└── README.md                           # This file
+├── requirements.txt                   # Python dependencies
+├── .gitignore                         # Git ignore rules
+├── LICENSE                            # MIT License
+└── README.md                          # This file
 ```
 
 ---
@@ -330,12 +330,13 @@ Each experiment generates:
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{ndikuriyo2025enmoead,
-  title={A Multi-objective Robust Optimization based on Evolutionary Algorithm for container routing problems under risks and uncertainties},
+@article{ndikuriyo2025multi,
+  title={A Multi-Objective Robust Optimization Based on Evolutionary Algorithm for Container Routing Problems Under Risks and Uncertainties},
   author={Ndikuriyo, Yves and Zhang, Yinggui and Fom, Dung Davou},
-  journal={Applied Soft Computing},
+  journal={SSRN Electronic Journal},
   year={2025},
-  note={Under review}
+  doi={10.2139/ssrn.5399005},
+  url={https://ssrn.com/abstract=5399005}
 }
 ```
 
@@ -367,11 +368,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2026 NDIKURIYO Yves, Yinggui Zhang, Dung Davou Fom
+Copyright (c) 2026 Ndikuriyo Yves, Yinggui Zhang, Dung Davou Fom
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
+in the Software without restriction, including, without limitation, the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
@@ -435,5 +436,5 @@ For questions, issues, or collaboration opportunities:
 ---
 
 **Repository:** [https://github.com/YvesNDIKURIYO-2022/En-MOEA-D-Container-Routing](https://github.com/YvesNDIKURIYO-2022/En-MOEA-D-Container-Routing)  
-**Last updated:** February 2026  
+**Last updated:** March 2026  
 **Version:** 1.0.0
