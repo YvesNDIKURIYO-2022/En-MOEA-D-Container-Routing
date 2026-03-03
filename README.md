@@ -1,10 +1,3 @@
-# 📝 **COMPLETE UPDATED README.md**
-
-Here is the fully updated README.md with all your corrected results and the complete repository documentation:
-
----
-
-```markdown
 # En-MOEA/D: Enhanced Multi-Objective Evolutionary Algorithm based on Decomposition for Container Routing under Uncertainty
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -449,20 +442,3 @@ For questions, issues, or collaboration opportunities:
 ```
 
 ---
-
-## ✅ **Summary of Key Updates:**
-
-| Section | Original Value | Updated Value |
-|---------|----------------|---------------|
-| **Hypervolume Improvement** | +41.36% | **+45.2%** |
-| **ω Degradation** | 21.1% | **20.2%** |
-| **τ Sensitivity** | 1.59% | **1.48%** |
-| **Northern Corridor Cost** | $6,076 | **$6,116** |
-| **Northern Corridor Time** | 506h | **502.8h** |
-| **Central Corridor Cost** | $5,772 | **$5,635** |
-| **Central Corridor Time** | 488h | **478.1h** |
-| **20% Perturbation (North)** | +12.2% | **+13.0%** |
-| **20% Perturbation (Central)** | +15.9% | **+13.7%** |
-| **Case Study Dataset** | 1,000 scenarios | **760 scenarios** |
-
-This README now accurately reflects your **actual experimental results** and is ready to replace the existing file in your repository! 🚀
