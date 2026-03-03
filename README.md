@@ -191,49 +191,49 @@ Each experiment corresponds to a validation section in the paper. Run them in an
 
 ### 1. Adaptive Decomposition Validation
 ```bash
-python experiments/run_adaptive_decomposition.py
+run_adaptive_decomposition.py
 ```
 Tests dynamic switching between PBI and Chebyshev on ZDT, DTLZ, and WFG benchmarks. Outputs Pareto front comparisons and performance metrics.
 
 ### 2. Parameter Sensitivity Analysis
 ```bash
-python experiments/run_sensitivity_analysis.py
+run_sensitivity_analysis.py
 ```
 Validates optimal parameters α, β, ω, γ, τ, and MC scenarios. Includes ablation study for ω extremes (0.0 and 1.0).
 
 ### 3. Mean-Variance Robustness Validation
 ```bash
-python experiments/run_mean_variance.py
+run_mean_variance.py
 ```
 Compares RobustMOEA/D against NSGA-II, SPEA2, and standard MOEA/D on ZDT and WFG problems.
 
 ### 4. Monte Carlo Simulation Validation
 ```bash
-python experiments/run_monte_carlo.py
+run_monte_carlo.py
 ```
 Compares MOEA/D vs MOEA/D-MCSS under uncertainty on ZDT and DTLZ problems with perturbation.
 
 ### 5. Robust Test Problems
 ```bash
-python experiments/run_robust_problems.py
+run_robust_problems.py
 ```
 Evaluates all algorithms on GFunction, Ishigami, OakleyOHagan, Borehole, and other robust test problems.
 
 ### 6. WFG Benchmark Suites
 ```bash
-python experiments/run_wfg_benchmarks.py
+run_wfg_benchmarks.py
 ```
 Runs WFG1-WFG9 test problems with all algorithm variants.
 
 ### 7. ZDT and DTLZ Benchmark Suites
 ```bash
-python experiments/run_zdt_dtlz_benchmarks.py
+run_zdt_dtlz_benchmarks.py
 ```
 Runs ZDT1-ZDT6 and DTLZ1-DTLZ7 with comprehensive algorithm comparison.
 
 ### 8. East African Case Study
 ```bash
-python experiments/run_case_study.py
+run_case_study.py
 ```
 Real-world validation on Northern and Central Corridors. Generates:
 - Full East African logistics dataset (760 scenarios)
