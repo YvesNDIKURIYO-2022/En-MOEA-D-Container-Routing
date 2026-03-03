@@ -438,7 +438,3 @@ For questions, issues, or collaboration opportunities:
 **Repository:** [https://github.com/YvesNDIKURIYO-2022/En-MOEA-D-Container-Routing](https://github.com/YvesNDIKURIYO-2022/En-MOEA-D-Container-Routing)  
 **Last updated:** March 2026  
 **Version:** 1.0.0
-
-```
-
----
