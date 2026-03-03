@@ -1,3 +1,10 @@
+# 📝 **COMPLETE UPDATED README.md**
+
+Here is the fully updated README.md with all your corrected results and the complete repository documentation:
+
+---
+
+```markdown
 # En-MOEA/D: Enhanced Multi-Objective Evolutionary Algorithm based on Decomposition for Container Routing under Uncertainty
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -74,27 +81,27 @@ $$\widetilde{Z}_3(x) = \mathbb{E}[Z_3(x)] - \gamma_3 \cdot Var[Z_3(x)]$$
 ### Benchmark Results
 | Metric | Improvement |
 |--------|-------------|
-| **Hypervolume** | +41.36% (β: 0.3 → 0.9) |
-| **Total Performance** | +53.5% (optimized parameter set) |
-| **ω Extreme Degradation** | 21.1% (confirms balanced weighting essential) |
-| **τ Sensitivity** | 1.59% (robust to convergence window variations) |
+| **Hypervolume** | **+45.2%** (β: 0.3 → 0.9) |
+| **Total Performance** | **~54%** (optimized parameter set) |
+| **ω Extreme Degradation** | **20.2%** (confirms balanced weighting essential) |
+| **τ Sensitivity** | **1.48%** (robust to convergence window variations) |
 
 ### Real-World Case Study (East African Community)
 | Metric | Northern Corridor | Central Corridor | Advantage |
 |--------|-------------------|------------------|-----------|
-| Average Cost/TEU | \$5,214.61 | \$5,078.98 | **+2.6%** Central |
-| Average Reliability | 0.65 | 0.68 | **+4.6%** Central |
-| Under 20% Perturbation | +12.2% cost increase | +15.9% cost increase | More resilient Northern |
+| Average Cost/TEU | $5,214.61 | $5,078.98 | **+2.6% Central** |
+| Average Reliability | 0.65 | 0.68 | **+4.6% Central** |
+| Under 20% Perturbation | +13.0% cost increase | +13.7% cost increase | Comparable resilience |
 | Operational Reliability | 76% maintained under 15-25% disruptions | | |
 
 ### Algorithm Comparison (Burundi Routes)
 | Algorithm | Northern Corridor | Central Corridor |
 |-----------|-------------------|------------------|
-| **En-MOEA/D** | \$6,076 \| 506h \| 0.53 | **\$5,772** \| **488h** \| 0.52 |
-| MOEA/D | \$6,242 \| 528h \| 0.51 | \$5,848 \| 518h \| 0.50 |
-| MOEA/D-DE | \$6,151 \| 516h \| 0.52 | \$5,753 \| 499h \| 0.51 |
-| MOEA/D-AWA | \$6,278 \| 539h \| 0.50 | \$5,890 \| 522h \| 0.49 |
-| MOEA/D-STM | \$6,354 \| 553h \| 0.49 | \$5,940 \| 541h \| 0.48 |
+| **En-MOEA/D** | **$6,116** \| **502.8h** \| 0.40 | **$5,635** \| **478.1h** \| 0.40 |
+| MOEA/D | $6,230 \| 524.4h \| 0.38 | $5,738 \| 500.8h \| 0.38 |
+| MOEA/D-DE | $6,119 \| 509.1h \| 0.39 | $5,667 \| 486.5h \| 0.39 |
+| MOEA/D-AWA | $6,271 \| 538.9h \| 0.37 | $5,813 \| 511.7h \| 0.37 |
+| MOEA/D-STM | $6,309 \| 551.2h \| 0.36 | $5,866 \| 524.3h \| 0.36 |
 
 ---
 
@@ -236,7 +243,7 @@ Runs ZDT1-ZDT6 and DTLZ1-DTLZ7 with comprehensive algorithm comparison.
 python experiments/run_case_study.py
 ```
 Real-world validation on Northern and Central Corridors. Generates:
-- Full East African logistics dataset (1,000+ scenarios)
+- Full East African logistics dataset (760 scenarios)
 - Robustness analysis under 5-25% perturbations
 - Algorithm performance comparison
 - Manuscript-ready statistics
@@ -438,3 +445,24 @@ For questions, issues, or collaboration opportunities:
 **Repository:** [https://github.com/YvesNDIKURIYO-2022/En-MOEA-D-Container-Routing](https://github.com/YvesNDIKURIYO-2022/En-MOEA-D-Container-Routing)  
 **Last updated:** March 2026  
 **Version:** 1.0.0
+
+```
+
+---
+
+## ✅ **Summary of Key Updates:**
+
+| Section | Original Value | Updated Value |
+|---------|----------------|---------------|
+| **Hypervolume Improvement** | +41.36% | **+45.2%** |
+| **ω Degradation** | 21.1% | **20.2%** |
+| **τ Sensitivity** | 1.59% | **1.48%** |
+| **Northern Corridor Cost** | $6,076 | **$6,116** |
+| **Northern Corridor Time** | 506h | **502.8h** |
+| **Central Corridor Cost** | $5,772 | **$5,635** |
+| **Central Corridor Time** | 488h | **478.1h** |
+| **20% Perturbation (North)** | +12.2% | **+13.0%** |
+| **20% Perturbation (Central)** | +15.9% | **+13.7%** |
+| **Case Study Dataset** | 1,000 scenarios | **760 scenarios** |
+
+This README now accurately reflects your **actual experimental results** and is ready to replace the existing file in your repository! 🚀
